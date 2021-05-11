@@ -99,7 +99,7 @@ a {
 
 .top {
     position: fixed;
-    z-index: 1;
+   z-index: 1;
 }
 
 .top a {
@@ -112,6 +112,7 @@ a {
     line-height: 4em;
     background-color: rgba(220, 220, 220, 60%);
     border-radius: 0.5em 0 0 0.5em;
+   
 }
 
 .top a:hover {
@@ -196,6 +197,7 @@ p {
     border-radius: 0 0 10px 10px;
     overflow: hidden;
     line-height: 2em;
+   z-index: 0;
 }
 
 
@@ -208,6 +210,7 @@ button, [type="button"]{
 .accordion-button {
     color: #9D8189;
     background-color: #F5C1DD;
+    overflow: hidden;
 }
 
 .accordion-button:not(.collapsed) {
