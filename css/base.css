@@ -24,18 +24,17 @@ texto oscuro:#9D8189
 
 body {
     margin: 0;
+    font-family: myriad-pro, sans-serif;
 }
 
 .holder {
     padding: 20px;
     margin: 0 auto;
-  
     text-align: center;
-    /* modificar según el contenedor */
 }
 
-.logo{
-    padding: 80px 40px 10px;
+.logo {
+    padding: 20px 40px 10px;
     max-width: 500px;
     box-sizing: border-box;
 }
@@ -91,19 +90,15 @@ a {
     color: white;
 }
 
-.contenedortop{
+.contenedortop {
     display: flex;
     justify-content: flex-end;
     margin: 10px 0 0;
     padding: 0;
- 
 }
-
 
 .top {
     position: fixed;
-    background-color: rgba(220, 220, 220, 60%);
-    border-radius: 0.5em 0 0 0.5em;
 }
 
 .top a {
@@ -111,53 +106,119 @@ a {
     text-decoration: none;
     font-weight: 600;
     color: #9D8189;
-    padding: 0 10px 0 15px;
-    font-size: 0.9em; 
-    line-height: 2.5em;
+    padding: 0 20px 0 25px;
+    font-size: 0.9em;
+    line-height: 4em;
+    background-color: rgba(220, 220, 220, 60%);
+    border-radius: 0.5em 0 0 0.5em;
 }
 
-h1{
+.top a:hover {
+    background-color: rgba(156, 156, 156, 0.6);
+    color: white;
+}
+
+.top a:active {
+    background-color: rgba(68, 26, 71, 0.6);
+    color: white;
+}
+
+h1 {
     padding-top: 30px;
     font-weight: 600;
     text-align: center;
     color: #F5C1DD;
 }
 
-h3{
+h3 {
     padding-top: 20px;
     font-weight: 400;
     text-align: center;
     color: #83045e;
 }
 
-p{
+p {
     color: #9D8189;
-text-align: center;
-line-height: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
-.slogan{
+.slogan {
     font-weight: 600;
     color: #83045e;
 }
 
-
-.titulo{
+.titulo {
     background-color: #83045e;
     color: white;
     height: 200px;
     margin: 50px 0;
 }
-.titulo h2{
+
+.titulo h2 {
     font-weight: 400;
     text-align: center;
     line-height: 200px;
 }
 
-.equipoimg{
-max-width: 100%;
-margin-bottom: 50px;
+.equipoimg {
+    max-width: 100%;
+    margin-bottom: 50px;
 }
+
+/* inicio cv*/
+
+.cv {
+    width: 80%;
+    border: 1px solid #9D8189;
+    border-bottom: none;
+    margin: 20px auto 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.cv img {
+    display: block;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.vete p {
+    color: #83045e;
+    font-weight: 400;
+}
+
+.cvacordeon {
+    width: 80%;
+    border: 1px solid #9D8189;
+    border-top: none;
+    margin: 0 auto 20px;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    line-height: 2em;
+}
+
+
+
+button, [type="button"]{
+    display: block;
+    text-align: center;
+    }
+
+.accordion-button {
+    color: #9D8189;
+    background-color: #F5C1DD;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #9D8189;
+    /* box-shadow: inset 0 -1px 0 rgba(0,0,0,.125); */
+}
+
+.accordion-button:not(.collapsed)::after, .accordion-button::after {
+    background-image: none;
+}
+
 /* ICOMOON */
 
 .icon-mail:before {
