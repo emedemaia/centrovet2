@@ -86,16 +86,15 @@ a {
 }
 
 .contenedor{
-    
     display: flex;
     justify-content: flex-end;
     margin: 10px 0 0;
     padding: 0;
-   background-color: red;
-   width: auto;
+ 
 }
+
+
 .top {
-   
     position: fixed;
     background-color: gainsboro;
     border-radius: 0.5em 0 0 0.5em;
