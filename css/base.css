@@ -162,10 +162,13 @@ p {
     text-align: center;
     line-height: 200px;
 }
-
+ .col-{
+     padding: 0;
+ }
 .equipoimg {
     max-width: 100%;
     margin-bottom: 50px;
+    /* padding: 0; */
 }
 
 /* inicio cv*/
@@ -222,6 +225,8 @@ button, [type="button"]{
 .accordion-button:not(.collapsed)::after, .accordion-button::after {
     background-image: none;
 }
+
+
 
 /* ICOMOON */
 
