@@ -1,0 +1,111 @@
+/* font-family: myriad-pro, sans-serif;
+Normal e Italic
+
+Light:300
+Regular:400
+Semibold:600
+Bold:700
+
+colores:
+botonera:#9E8D96
+clientes/rosa logo: #F5C1DD
+violeta logo: #83045e
+texto oscuro:#9D8189
+*/
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?tjwdto');
+    src: url('fonts/icomoon.eot?tjwdto#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?tjwdto') format('truetype'), url('fonts/icomoon.woff?tjwdto') format('woff'), url('fonts/icomoon.svg?tjwdto#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.holder {
+    padding: 80px 40px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 500px;
+    /* modificar según el contenedor */
+}
+
+.maxwidthcontent {
+    max-width: 100%;
+}
+
+.displayflex {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: #9E8D96;
+}
+
+.botonera {
+    /* class en ul del nav */
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.botonera .clientes {
+    background-color: #F5C1DD;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+}
+
+.botonera li a {
+    color: white;
+}
+
+.botonera li a:hover {
+    background-color: #F5C1DD;
+}
+
+.botonera .clientes a {
+    color: #9D8189;
+}
+
+.botonera .clientes a:hover {
+    background-color: #83045e;
+    color: white;
+}
+
+/* ICOMOON */
+
+.icon-mail:before {
+    font-family: 'icomoon';
+    content: "\e900";
+}
+
+.icon-ubicacion:before {
+    font-family: 'icomoon';
+    content: "\e901";
+}
+
+.icon-telefono:before {
+    font-family: 'icomoon';
+    content: "\e902";
+}
+
+.icon-instagram:before {
+    font-family: 'icomoon';
+    content: "\e903";
+    color: #e4405f;
+}
+
+/* ICOMOON*/
