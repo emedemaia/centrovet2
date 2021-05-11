@@ -25,6 +25,7 @@ texto oscuro:#9D8189
 body {
     margin: 0;
     font-family: myriad-pro, sans-serif;
+    background-color: white;
 }
 
 .holder {
