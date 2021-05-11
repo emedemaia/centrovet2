@@ -27,11 +27,16 @@ body {
 }
 
 .holder {
-    padding: 80px 40px 10px;
+    padding: 20px;
     margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 500px;
+  
+    text-align: center;
     /* modificar según el contenedor */
+}
+
+.logo{
+    padding: 80px 40px 10px;
+    max-width: 500px;
 }
 
 .maxwidthcontent {
@@ -85,7 +90,7 @@ a {
     color: white;
 }
 
-.contenedor{
+.contenedortop{
     display: flex;
     justify-content: flex-end;
     margin: 10px 0 0;
@@ -109,6 +114,31 @@ a {
     font-size: 0.8em;
     line-height: 2.5em;
    
+}
+
+h1{
+    padding-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #F5C1DD;
+}
+
+h3{
+    padding-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #83045e;
+}
+
+p{
+    color: #9D8189;
+text-align: center;
+line-height: 2em;
+}
+
+.slogan{
+    font-weight: 600;
+    color: #83045e;
 }
 
 /* ICOMOON */
