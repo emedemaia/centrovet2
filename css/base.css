@@ -140,6 +140,10 @@ h3 {
     color: #83045e;
 }
 
+.globulosrojos{
+max-width: 300px;
+padding: 20px 0;
+}
 p {
     color: #9D8189;
     text-align: center;
@@ -169,7 +173,7 @@ p {
 .equipoimg {
     max-width: 100%;
     margin-bottom: 50px;
-    /* padding: 0; */
+  
 }
 
 /* inicio cv*/
