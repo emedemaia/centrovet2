@@ -220,6 +220,7 @@ button, [type="button"]{
     color: #9D8189;
     background-color: #F5C1DD;
     overflow: hidden;
+    border-radius: 0 0 10px 10px;
 }
 
 .accordion-button:not(.collapsed) {
