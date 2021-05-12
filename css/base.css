@@ -11,6 +11,7 @@ botonera:#9E8D96
 clientes/rosa logo: #F5C1DD
 violeta logo: #83045e
 texto oscuro:#9D8189
+más oscuro:#674e56
 */
 
 @font-face {
@@ -316,6 +317,33 @@ p {
     padding: 10px 5px;
 }
 
+.servicios ul{
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ color: #9D8189;
+ line-height: 2em;
+}
+
+.servicios a{
+    background-color: #83045e;
+    border-radius: 10px;
+    color: white;
+    margin: 30px auto
+    20px;
+    width: 80%;
+   text-align: center;
+    box-sizing: border-box;
+}
+
+.servicios a:hover{
+    background-color: #9E8D96;
+    color: white;
+}
+
+.servicios a:active{
+    background-color: #674e56;
+}
 /* FIN SERVICIOS */
 
 /* ICOMOON */
