@@ -100,7 +100,7 @@ a {
 
 .top {
     position: fixed;
-   z-index: 1;
+    z-index: 1;
 }
 
 .top a {
@@ -113,8 +113,8 @@ a {
     line-height: 4em;
     background-color: rgba(220, 220, 220, 60%);
     border-radius: 0.5em 0 0 0.5em;
-   border: 1px solid #83045e;
-   border-right: 0;
+    border: 1px solid #83045e;
+    border-right: 0;
 }
 
 .top a:hover {
@@ -141,10 +141,11 @@ h3 {
     color: #83045e;
 }
 
-.globulosrojos{
-max-width: 300px;
-padding: 20px 0;
+.globulosrojos {
+    max-width: 300px;
+    padding: 20px 0;
 }
+
 p {
     color: #9D8189;
     text-align: center;
@@ -168,13 +169,14 @@ p {
     text-align: center;
     line-height: 200px;
 }
- .col-{
-     padding: 0;
- }
+
+.col- {
+    padding: 0;
+}
+
 .equipoimg {
     max-width: 100%;
     margin-bottom: 50px;
-  
 }
 
 /* inicio cv*/
@@ -184,18 +186,25 @@ p {
     border: 1px solid #9D8189;
     border-bottom: none;
     margin: 20px auto 0;
-    border-radius: 10px 10px 0 0;
+    /* border-radius: 10px 10px 0 0; */
 }
 
 .cv img {
     display: block;
-    max-width: 150px;
-    margin: 10px auto;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.vete{
+    margin:0 auto;
 }
 
 .vete p {
     color: #83045e;
     font-weight: 400;
+   width: 100%;
+   font-size: 0.8em;
 }
 
 .cvacordeon {
@@ -203,24 +212,22 @@ p {
     border: 1px solid #9D8189;
     border-top: none;
     margin: 0 auto 20px;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
     overflow: hidden;
     line-height: 2em;
-   z-index: 0;
+    z-index: 0;
 }
 
-
-
-button, [type="button"]{
+button, [type="button"] {
     display: block;
     text-align: center;
-    }
+}
 
-.accordion-button {
+.collapsed {
     color: #9D8189;
     background-color: #F5C1DD;
     overflow: hidden;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
 }
 
 .accordion-button:not(.collapsed) {
@@ -234,7 +241,22 @@ button, [type="button"]{
 }
 
 
+.posicionar{
+    position: relative;
+    text-align: center;
+}
 
+.posicionar .equipoimg{
+opacity: 40%;
+}
+.posicionar2{
+    position: absolute;
+    top: 30%;
+    display: block;
+    width: 100%;
+    text-align: center;
+   color: #83045e;
+}
 /* ICOMOON */
 
 .icon-mail:before {
