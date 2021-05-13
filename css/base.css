@@ -68,7 +68,7 @@ nav {
     padding: 0;
     text-align: center;
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .botonera .clientes {
@@ -78,7 +78,7 @@ nav {
 a {
     text-decoration: none;
     display: block;
-    line-height: 60px;
+    line-height: 40px;
     transition: all 0.3s ease;
 }
 
@@ -91,7 +91,7 @@ a {
 }
 
 .botonera .clientes a {
-    color: #9D8189;
+    color: #674e56;
 }
 
 .botonera .clientes a:hover {
@@ -140,7 +140,7 @@ a {
 
 /* INICIO BIENVENIDA */
 
-h1 {
+.bienvenida h2 {
     padding-top: 30px;
     font-weight: 600;
     text-align: center;
@@ -177,14 +177,14 @@ p {
 .titulo {
     background-color: #83045e;
     color: white;
-    height: 200px;
+    height: 100px;
     margin: 50px 0;
 }
 
 .titulo h2 {
     font-weight: 400;
     text-align: center;
-    line-height: 200px;
+    line-height: 100px;
 }
 
 .col- {
