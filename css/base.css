@@ -12,6 +12,9 @@ clientes/rosa logo: #F5C1DD
 violeta logo: #83045e
 texto oscuro:#9D8189
 más oscuro:#674e56
+
+color fecha gris claro: #b3acae
+  color autor: #cc869c;
 */
 
 @font-face {
@@ -365,6 +368,7 @@ p {
 .novedades {
     margin-top: 50px;
     border: 0.5px dotted #674e56;
+    width: 90%;
 }
 
 .novedades h4 {
@@ -373,24 +377,64 @@ p {
     line-height: 2em;
 }
 
-h6 {
-    padding-left: 0.7em;
-    color: #9D8189;
+.fecha{
+    display: flex; /* lo puse para alinear los p y span*/
+   
 }
 
-.autor, .fecha {
-    padding-top: 1em;
+
+
+.fecha p {
+    padding-left: 0.7em;
+    color: #b3acae;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    font-style: italic;
 }
+
+.autor p, .fecha p{
+    margin-bottom: 0;
+}
+
 
 .autor p {
-    color: #674e56;
-    line-height: 1em;
+    color: #cc869c;
+    font-size: 0.8em;  
+    text-align: left;
 }
 
-.contenido p{
+
+.contenido p {
     color: rgb(43, 42, 42);
     text-align: left;
 }
+
+hr{
+    margin: 0;
+    margin-bottom: 1em;
+}
+/* ICOMOON NOVEDADES */
+
+.icon-clock:before {
+    font-family: 'icomoon';
+    content: "\e94e";
+    margin-right: 0.7em;
+    font-size: 0.8em;
+    
+}
+
+.icon-calendar:after {
+    font-family: 'icomoon';
+    content: "\e953";
+}
+
+.icon-calendar, .icon-clock{
+    color: #b3acae;
+    margin-left: 0.5em;
+    
+}
+
+/* FIN ICOMOON NOVEDADES*/
 
 /* FIN NOVEDADES */
 
@@ -541,6 +585,7 @@ h4 {
     font-family: 'icomoon';
     content: "\e903";
 }
+
 
 /* ICOMOON*/
 
