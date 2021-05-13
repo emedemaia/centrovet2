@@ -409,6 +409,7 @@ h4 {
 
 .contactos {
     background-color: #9D8189;
+   
 }
 
 .contactos p {
@@ -416,18 +417,26 @@ h4 {
 }
 
 .horarios, .redes{
-    margin-top: 55px;
+    margin: 55px auto;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
 }
 
 
 .icon-instagram, .icon-mail, .icon-telefono, .icon-ubicacion  {
     display: flex;
-    justify-content: center;
+   justify-content: center;
+   
 }
 
 .redes a {
     color: white;
     line-height: 1.8em;
+    
 }
 
 .redes a:hover{
@@ -440,6 +449,7 @@ h4 {
 
 .icon-instagram:before, .icon-mail:before, .icon-telefono:before, .icon-ubicacion:before {
     margin-right: 10px;
+   
 }
 
 .icon-mail1:before {
