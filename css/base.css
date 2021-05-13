@@ -349,6 +349,51 @@ p {
 
 /* FIN SERVICIOS */
 
+/* INICIO NOVEDADES */
+
+.novedadestitulo {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.novedadestitulo h2 {
+    text-align: center;
+    color: #F5C1DD;
+    font-weight: 600;
+}
+
+.novedades {
+    margin-top: 50px;
+    border: 0.5px dotted #674e56;
+}
+
+.novedades h4 {
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 2em;
+}
+
+h6 {
+    padding-left: 0.7em;
+    color: #9D8189;
+}
+
+.autor, .fecha {
+    padding-top: 1em;
+}
+
+.autor p {
+    color: #674e56;
+    line-height: 1em;
+}
+
+.contenido p{
+    color: rgb(43, 42, 42);
+    text-align: left;
+}
+
+/* FIN NOVEDADES */
+
 /* INICIO CONTACTO */
 
 .formulario {
@@ -369,12 +414,12 @@ h4 {
     display: flex;
 }
 
-.formulario p input{
+.formulario p input {
     width: 250px;
 }
-.formulario input[placeholder="opcional"]{
+
+.formulario input[placeholder="opcional"] {
     font-style: italic;
-    
 }
 
 .formulario input[type="submit"], .formulario input[type="reset"] {
@@ -412,38 +457,34 @@ h4 {
 
 .contactos {
     background-color: #9D8189;
-   
 }
 
 .contactos p {
     color: white;
 }
 
-.horarios, .redes{
+.horarios, .redes {
     margin-bottom: 55px;
 }
 
-.horarios{
+.horarios {
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   margin-top: 55px;
+    justify-content: center;
+    margin-top: 55px;
 }
 
-
-.icon-instagram, .icon-mail, .icon-telefono, .icon-ubicacion  {
+.icon-instagram, .icon-mail, .icon-telefono, .icon-ubicacion {
     display: flex;
-   justify-content: center;
-   
+    justify-content: center;
 }
 
 .redes a {
     color: white;
     line-height: 1.8em;
-    
 }
 
-.redes a:hover{
+.redes a:hover {
     color: #83045e;
 }
 
@@ -453,7 +494,6 @@ h4 {
 
 .icon-instagram:before, .icon-mail:before, .icon-telefono:before, .icon-ubicacion:before {
     margin-right: 10px;
-   
 }
 
 .icon-mail1:before {
@@ -504,20 +544,18 @@ h4 {
 
 /* ICOMOON*/
 
-
 /* INICIO FOOTER */
-footer{
+
+footer {
     background-color: #F5C1DD;
     color: #674e56;
     text-align: center;
     padding: 20px 0 20px 10px;
     width: 100%;
 }
-/* FIN FOOTER */
 
+/* FIN FOOTER */
 
 /* INICIO RESPONSIVE */
 
-@media screen and (min-width: 540){
-    
-}
+@media screen and (min-width: 540) {}
