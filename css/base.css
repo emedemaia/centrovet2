@@ -420,7 +420,7 @@ h4 {
 }
 
 
-.icon-instagram {
+.icon-instagram, .icon-mail, .icon-telefono, .icon-ubicacion  {
     display: flex;
     justify-content: center;
 }
