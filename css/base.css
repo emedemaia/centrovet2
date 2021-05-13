@@ -369,6 +369,11 @@ h4 {
     display: flex;
 }
 
+.formulario input[placeholder="opcional"]{
+    font-style: italic;
+    
+}
+
 .formulario input[type="submit"], .formulario input[type="reset"] {
     width: 5em;
     border-radius: 15px;
@@ -491,3 +496,10 @@ footer{
     width: 100%;
 }
 /* FIN FOOTER */
+
+
+/* INICIO RESPONSIVE */
+
+@media screen and {min-width: 540;
+    
+}
