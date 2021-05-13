@@ -112,7 +112,7 @@ a {
 
 .top {
     position: fixed;
-    top: 30em;
+    top: 35em;
     z-index: 1;
 }
 
@@ -377,14 +377,24 @@ h4 {
     border: none;
 }
 
-.formulario input[type="submit"]:hover, .formulario input[type="reset"]:hover{
-background-color: #674e56;
-}
-
 .formulario input[type="submit"] {
     margin-right: 20px;
     background-color: #83045e;
     color: white;
+}
+
+.formulario input[type="reset"] {
+    background-color: #9E8D96;
+    color: white;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #F5C1DD;
+    color: black;
+}
+
+.formulario input[type="reset"]:hover {
+    background-color: #674e56;
 }
 
 .formulario textarea {
@@ -392,9 +402,36 @@ background-color: #674e56;
     vertical-align: top;
 }
 
+.redes{
+    background-color: #9D8189;
+    padding-top: 35px;
+}
+
+.redes p{
+    color: white;
+  
+}
+
+.icon-instagram{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    color: white;
+    line-height: 1.8em;
+}
+
 /* FIN CONTACTO */
 
 /* ICOMOON */
+
+.icon-instagram:before,
+.icon-mail:before,
+.icon-telefono:before,
+.icon-ubicacion:before{  
+    margin-right: 10px;
+}
 
 .icon-mail1:before {
     font-family: 'icomoon';
@@ -440,7 +477,7 @@ background-color: #674e56;
 .icon-instagram:before {
     font-family: 'icomoon';
     content: "\e903";
-    color: #e4405f;
+    
 }
 
 /* ICOMOON*/
