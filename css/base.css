@@ -38,6 +38,8 @@ body {
     padding: 20px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -50,10 +52,7 @@ body {
     max-width: 100%;
 }
 
-.displayflex {
-    display: flex;
-    justify-content: center;
-}
+
 
 /* FIN HEADER */
 
@@ -61,6 +60,7 @@ body {
 
 nav {
     background-color: #9E8D96;
+    
 }
 
 .botonera {
@@ -611,4 +611,39 @@ footer {
 
 /* INICIO RESPONSIVE */
 
-@media screen and (min-width: 540) {}
+@media screen and (min-width: 540px) {
+
+    .holder{
+        margin: 0 0 0 20px;
+     padding: 70px 0 70px 20px;
+     position: relative;
+     top:-10px;
+    }
+
+    .logo{
+        max-width: 220px;
+    }
+
+    header{
+        background: no-repeat center/100% url(../images/labo2000x855.png);
+      
+    }
+
+    nav{
+        opacity: 70%;
+        position: relative;
+        top: -210px;
+        background-color: #674e56;
+    }
+
+    .botonera{
+        display: flex;
+       justify-content: flex-end;
+       font-size: 0.7em;
+    }
+
+    .botonera li a{
+margin: 0 5px;
+
+    }
+}
