@@ -209,7 +209,7 @@ p {
     /* border-radius: 10px 10px 0 0; */
 }
 
-.cv img {
+.cv img, .cv2 img{
     display: block;
     max-width: 100%;
     padding: 10px;
@@ -227,16 +227,23 @@ p {
     font-size: 0.8em;
 }
 
+.cv2 {
+    width: 80%;
+    border: 1px solid #9D8189;
+    margin: 20px auto 25px;
+ 
+}
 .cvacordeon {
     width: 80%;
     border: 1px solid #9D8189;
     border-top: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 25px;
     /* border-radius: 0 0 10px 10px; */
     /* overflow: hidden; */
     line-height: 2em;
     z-index: 0;
 }
+
 
 .accordion-button {
     justify-content: center;
