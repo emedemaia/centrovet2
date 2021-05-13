@@ -369,6 +369,9 @@ h4 {
     display: flex;
 }
 
+.formulario p input{
+    width: 250px;
+}
 .formulario input[placeholder="opcional"]{
     font-style: italic;
     
