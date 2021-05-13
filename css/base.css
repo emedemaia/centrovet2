@@ -420,13 +420,14 @@ h4 {
 }
 
 .horarios, .redes{
-    margin: 55px auto;
+    margin-bottom: 55px;
 }
 
 .horarios{
     display: flex;
     flex-direction: column;
    justify-content: center;
+   margin-top: 55px;
 }
 
 
