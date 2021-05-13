@@ -402,22 +402,25 @@ h4 {
     vertical-align: top;
 }
 
-.redes{
+.contactos {
     background-color: #9D8189;
-    padding-top: 35px;
 }
 
-.redes p{
+.contactos p {
     color: white;
-  
 }
 
-.icon-instagram{
+.horarios, .redes{
+    margin-top: 55px;
+}
+
+
+.icon-instagram {
     display: flex;
     justify-content: center;
 }
 
-.redes a{
+.redes a {
     color: white;
     line-height: 1.8em;
 }
@@ -426,10 +429,7 @@ h4 {
 
 /* ICOMOON */
 
-.icon-instagram:before,
-.icon-mail:before,
-.icon-telefono:before,
-.icon-ubicacion:before{  
+.icon-instagram:before, .icon-mail:before, .icon-telefono:before, .icon-ubicacion:before {
     margin-right: 10px;
 }
 
@@ -477,7 +477,17 @@ h4 {
 .icon-instagram:before {
     font-family: 'icomoon';
     content: "\e903";
-    
 }
 
 /* ICOMOON*/
+
+
+/* INICIO FOOTER */
+footer{
+    background-color: #F5C1DD;
+    color: #674e56;
+    text-align: center;
+    padding: 20px 0 20px 10px;
+    width: 100%;
+}
+/* FIN FOOTER */
