@@ -631,7 +631,7 @@ footer {
 
     /* BOTÓN SUBIR */
 .top{
-    top:20em;
+    top:14em;
 }
     /* FIN BOTÓN SUBIR */
 
@@ -730,6 +730,12 @@ footer {
     .serv2{
         margin-bottom: 70px;
     }
+
+    .servicios ul{
+        display: block;
+        text-align: left;
+        padding-left: 80px;
+    }
     /* FIN SERVICIOS */
 
     /* INICIO CONTACTO */
@@ -774,6 +780,14 @@ footer {
         margin: 0 5px;
     }
     /* FIN HEADER Y NAV */
+
+
+    /* BOTÓN SUBIR */
+.top{
+    top:14em;
+}
+    /* FIN BOTÓN SUBIR */
+
 
     /* INICIO BIENVENIDA */
 
@@ -868,6 +882,12 @@ footer {
 
     .serv2{
         margin-bottom: 70px;
+    }
+
+    .servicios ul{
+        display: block;
+        text-align: left;
+        padding-left: 80px;
     }
     /* FIN SERVICIOS */
 
