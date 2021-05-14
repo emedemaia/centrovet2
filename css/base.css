@@ -605,7 +605,7 @@ footer {
 @media screen and (min-width: 576px) {
 
     /* HEADER Y NAV */
-    .holder {
+    header .holder {
         margin: 0 0 0 20px;
         padding: 70px 0 70px 20px;
         position: relative;
@@ -758,7 +758,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* HEADER Y NAV */
-    .holder {
+    header .holder {
         margin: 0 0 0 20px;
         padding: 100px 0 100px 20px;
         position: relative;
@@ -935,14 +935,14 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* HEADER Y NAV */
-    .holder {
+    header .holder {
         margin: 0 0 0 20px;
-        padding: 100px 0 100px 20px;
+        padding: 120px 0 120px 20px;
         position: relative;
-        top: -30px;
+        top: -50px;
     }
     .logo {
-        max-width: 280px;
+        max-width: 350px;
     }
     header {
         background: no-repeat center/100% url(../images/labo2000x855.png);
@@ -950,7 +950,7 @@ footer {
     nav {
         opacity: 70%;
         position: relative;
-        top: -286px;
+        top: -350px;
         background-color: #674e56;
     }
     .botonera {
@@ -1023,10 +1023,12 @@ footer {
     }
 
     .titulo h2{
+        font-size: 1.6em;
+    } 
+
+    .posicionar2{
         font-size: 1.2em;
     }
-
-    
     .equipoimg{
         margin-bottom: 0;
     }
