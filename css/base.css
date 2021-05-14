@@ -448,12 +448,16 @@ h4 {
     margin-bottom: 30px;
 }
 
+.contactolabo{
+    background-color: white;
+}
 .botonform {
     display: flex;
 }
 
 .formulario p input {
     width: 250px;
+    border: 0.5px dotted #9D8189;
 }
 
 .formulario input[placeholder="opcional"] {
@@ -491,6 +495,7 @@ h4 {
 .formulario textarea {
     resize: none;
     vertical-align: top;
+    border: 0.5px dotted #9D8189;
 }
 
 .contacto{
@@ -624,7 +629,7 @@ footer {
         font-size: 0.75em;
     }
     .botonera li a {
-        margin: 0 5px;
+        padding: 0 5px;
     }
     /* FIN HEADER Y NAV */
 
@@ -755,12 +760,12 @@ footer {
     /* HEADER Y NAV */
     .holder {
         margin: 0 0 0 20px;
-        padding: 70px 0 70px 20px;
+        padding: 100px 0 100px 20px;
         position: relative;
-        top: -10px;
+        top: -30px;
     }
     .logo {
-        max-width: 220px;
+        max-width: 280px;
     }
     header {
         background: no-repeat center/100% url(../images/labo2000x855.png);
@@ -768,23 +773,23 @@ footer {
     nav {
         opacity: 70%;
         position: relative;
-        top: -210px;
+        top: -286px;
         background-color: #674e56;
     }
     .botonera {
         display: flex;
         justify-content: flex-end;
-        font-size: 0.75em;
+        font-size: 0.80em;
     }
     .botonera li a {
-        margin: 0 5px;
+        padding: 0 8px;
     }
     /* FIN HEADER Y NAV */
 
 
     /* BOTÓN SUBIR */
 .top{
-    top:14em;
+    top:30em;
 }
     /* FIN BOTÓN SUBIR */
 
@@ -877,11 +882,15 @@ footer {
     }
 
     .servicios{
-        margin: 30px auto;
+        margin: 30px auto 70px;
     }
 
-    .serv2{
+    /* .serv2{
         margin-bottom: 70px;
+    } */
+
+    .serv2 a{
+        margin-top: 140px;
     }
 
     .servicios ul{
@@ -893,10 +902,210 @@ footer {
 
     /* INICIO CONTACTO */
 
+    .formulario{
+        margin: 50px auto;
+    }
+
+    .formulario h4{
+        margin-bottom: 50px;
+    }
+    .formulario p input {
+        width: 500px;
+       
+    }
+
     .redes{
         margin-top: 55px;
     }
 
+    .formulario textarea{
+        width:500px;
+    }
 
+    .formulario input[type="submit"], .formulario input[type="reset"] {
+        width: 7em;
+        padding:10px;
+        
+    }
+    
+    /* FIN CONTACTO */
+}
+
+
+@media screen and (min-width: 992px) {
+
+    /* HEADER Y NAV */
+    .holder {
+        margin: 0 0 0 20px;
+        padding: 100px 0 100px 20px;
+        position: relative;
+        top: -30px;
+    }
+    .logo {
+        max-width: 280px;
+    }
+    header {
+        background: no-repeat center/100% url(../images/labo2000x855.png);
+    }
+    nav {
+        opacity: 70%;
+        position: relative;
+        top: -286px;
+        background-color: #674e56;
+    }
+    .botonera {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.80em;
+    }
+    .botonera li a {
+        padding: 0 8px;
+    }
+    /* FIN HEADER Y NAV */
+
+
+    /* BOTÓN SUBIR */
+.top{
+    top:30em;
+}
+    /* FIN BOTÓN SUBIR */
+
+
+    /* INICIO BIENVENIDA */
+
+    .bienvenida{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+
+    .bienvenida h2 {
+        font-size: 1.2em;
+    }
+
+    .bienvenida h3 {
+        font-size: 1em;
+    }
+
+    .globulosrojos{
+        max-width: 250px;
+    }
+
+    .bienvenida .holder{
+        margin-left: 0;
+        padding: 18px 0 15px;
+    }
+
+    .bienvenida col{
+        padding-left: 0;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    /* FIN BIENVENIDA */
+
+    /* INICIO EQUIPO */
+
+    /* .quienessomos{
+        margin-bottom: 50px;
+        display: flex;
+        align-items: stretch;
+    } */
+
+    .contenedortitulos{
+        background-color: #83045e;
+        margin-bottom: 40px;
+    }
+
+    .titulo{
+        margin: 0;
+    }
+
+    .titulo h2{
+        font-size: 1.2em;
+    }
+
+    
+    .equipoimg{
+        margin-bottom: 0;
+    }
+
+  .equipo{
+      margin: 0 auto;
+  }
+    /* FIN EQUIPO */
+
+
+    /* INICIO CV */
+
+ .cv, .cvacordeon, .cv2{
+     width: 50%;
+ }
+
+
+
+    /* FIN CV */
+
+
+    /* INICIO SERVICIOS */
+
+    .posicionar{
+        background-color: white;
+    }
+
+    .posicionar2{
+        top:45%;
+    }
+
+    .servicios{
+        margin: 30px auto 70px;
+    }
+
+    /* .serv2{
+        margin-bottom: 70px;
+    } */
+
+    .serv2 a{
+        margin-top: 112px;
+        font-size: 0.9em;
+        line-height: 2.4em;
+    }
+
+    .servicios ul{
+        display: block;
+        text-align: left;
+        padding-left: 80px;
+    }
+    /* FIN SERVICIOS */
+
+    /* INICIO CONTACTO */
+
+    .formulario{
+        margin: 50px auto;
+    }
+
+    .formulario h4{
+        margin-bottom: 50px;
+    }
+    .formulario p input {
+        width: 500px;
+       
+    }
+
+    .redes{
+        margin-top: 55px;
+    }
+
+    .formulario textarea{
+        width:500px;
+    }
+
+    .formulario input[type="submit"], .formulario input[type="reset"] {
+        width: 7em;
+        padding:10px;
+        
+    }
+    
     /* FIN CONTACTO */
 }
