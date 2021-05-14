@@ -28,11 +28,17 @@ color fecha gris claro: #b3acae
 
 body {
     margin: 0;
+    padding: 0;
     font-family: myriad-pro, sans-serif;
     background-color: white;
 }
 
 /* INICIO HEADER */
+
+header, main{
+    width: 100%;
+}
+
 
 .holder {
     padding: 20px;
