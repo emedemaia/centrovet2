@@ -493,7 +493,8 @@ h4 {
     vertical-align: top;
 }
 
-.contactos {
+.contacto{
+
     background-color: #9D8189;
 }
 
@@ -725,7 +726,10 @@ footer {
 
     /* INICIO CONTACTO */
 
+    .redes{
+        margin-top: 55px;
+    }
 
-    
+
     /* FIN CONTACTO */
 }
