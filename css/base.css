@@ -30,14 +30,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: myriad-pro, sans-serif;
-    background-color: red;
+    
 }
 
 /* INICIO HEADER */
 
-header, main{
-    width: 100%;
-}
+
 
 
 .holder {
