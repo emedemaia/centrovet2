@@ -52,15 +52,12 @@ body {
     max-width: 100%;
 }
 
-
-
 /* FIN HEADER */
 
 /* INICIO NAV */
 
 nav {
     background-color: #9E8D96;
-    
 }
 
 .botonera {
@@ -157,6 +154,7 @@ h3 {
     color: #83045e;
 }
 
+
 .globulosrojos {
     max-width: 300px;
     padding: 20px 0;
@@ -201,6 +199,8 @@ p {
 
 /* INICIO CV */
 
+
+
 .cv {
     width: 80%;
     border: 1px solid #9D8189;
@@ -209,7 +209,7 @@ p {
     /* border-radius: 10px 10px 0 0; */
 }
 
-.cv img, .cv2 img{
+.cv img, .cv2 img {
     display: block;
     max-width: 100%;
     padding: 10px;
@@ -231,8 +231,8 @@ p {
     width: 80%;
     border: 1px solid #9D8189;
     margin: 20px auto 25px;
- 
 }
+
 .cvacordeon {
     width: 80%;
     border: 1px solid #9D8189;
@@ -243,7 +243,6 @@ p {
     line-height: 2em;
     z-index: 0;
 }
-
 
 .accordion-button {
     justify-content: center;
@@ -275,14 +274,7 @@ p {
     margin-left: 0;
 }
 
-/* .circulo::after,
-.circulo:not(.collapsed)::after{
-    content: "";
-    background: no-repeat center/80% url(../images/circle-down.svg);
-    opacity: 50%;
-   transform: rotate(180deg); 
- 
-   } */
+
 
 /* FIN CV */
 
@@ -309,7 +301,6 @@ p {
 }
 
 .servicios {
-    width: 80%;
     box-shadow: 0 0 10px 0 #83045e;
     margin: 20px auto;
     padding: 10px;
@@ -362,7 +353,7 @@ p {
 /* INICIO NOVEDADES */
 
 .novedadestitulo {
-    margin: 50px auto ;
+    margin: 50px auto;
     width: 100%;
 }
 
@@ -384,12 +375,10 @@ p {
     line-height: 2em;
 }
 
-.fecha{
-    display: flex; /* lo puse para alinear los p y span*/
-   
+.fecha {
+    display: flex;
+    /* lo puse para alinear los p y span*/
 }
-
-
 
 .fecha p {
     padding-left: 0.7em;
@@ -399,28 +388,27 @@ p {
     font-style: italic;
 }
 
-.autor p, .fecha p{
+.autor p, .fecha p {
     margin-bottom: 0;
 }
 
-
 .autor p {
     color: #cc869c;
-    font-size: 0.8em;  
+    font-size: 0.8em;
     text-align: left;
     padding-left: 0.7em;
 }
-
 
 .contenido p {
     color: rgb(43, 42, 42);
     text-align: left;
 }
 
-hr{
+hr {
     margin: 0;
     margin-bottom: 1em;
 }
+
 /* ICOMOON NOVEDADES */
 
 .icon-clock:before {
@@ -428,7 +416,6 @@ hr{
     content: "\e94e";
     margin-right: 0.7em;
     font-size: 0.8em;
-    
 }
 
 .icon-calendar:after {
@@ -436,10 +423,9 @@ hr{
     content: "\e953";
 }
 
-.icon-calendar, .icon-clock{
+.icon-calendar, .icon-clock {
     color: #b3acae;
     margin-left: 0.5em;
-    
 }
 
 /* FIN ICOMOON NOVEDADES*/
@@ -594,7 +580,6 @@ h4 {
     content: "\e903";
 }
 
-
 /* ICOMOON*/
 
 /* INICIO FOOTER */
@@ -611,39 +596,136 @@ footer {
 
 /* INICIO RESPONSIVE */
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 576px) {
 
-    .holder{
+    /* HEADER Y NAV */
+    .holder {
         margin: 0 0 0 20px;
-     padding: 70px 0 70px 20px;
-     position: relative;
-     top:-10px;
+        padding: 70px 0 70px 20px;
+        position: relative;
+        top: -10px;
     }
-
-    .logo{
+    .logo {
         max-width: 220px;
     }
-
-    header{
+    header {
         background: no-repeat center/100% url(../images/labo2000x855.png);
-      
     }
-
-    nav{
+    nav {
         opacity: 70%;
         position: relative;
         top: -210px;
         background-color: #674e56;
     }
-
-    .botonera{
+    .botonera {
         display: flex;
-       justify-content: flex-end;
-       font-size: 0.7em;
+        justify-content: flex-end;
+        font-size: 0.75em;
+    }
+    .botonera li a {
+        margin: 0 5px;
+    }
+    /* FIN HEADER Y NAV */
+
+    /* INICIO BIENVENIDA */
+
+    .bienvenida{
+        width: 70%;
+        margin-bottom: 50px;
     }
 
-    .botonera li a{
-margin: 0 5px;
-
+    .bienvenida h2 {
+        font-size: 1.2em;
     }
+
+    .bienvenida h3 {
+        font-size: 1em;
+    }
+
+    .globulosrojos{
+        max-width: 250px;
+    }
+
+    .bienvenida .holder{
+        margin-left: 0;
+        padding: 18px 0 15px;
+    }
+
+    .bienvenida col{
+        padding-left: 0;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    /* FIN BIENVENIDA */
+
+    /* INICIO EQUIPO */
+
+    /* .quienessomos{
+        margin-bottom: 50px;
+        display: flex;
+        align-items: stretch;
+    } */
+
+    .contenedortitulos{
+        background-color: #83045e;
+        margin-bottom: 40px;
+    }
+
+    .titulo{
+        margin: 0;
+    }
+
+    .titulo h2{
+        font-size: 1.2em;
+    }
+
+    
+    .equipoimg{
+        margin-bottom: 0;
+    }
+
+  .equipo{
+      margin: 0 auto;
+  }
+    /* FIN EQUIPO */
+
+
+    /* INICIO CV */
+
+ .cv, .cvacordeon, .cv2{
+     width: 50%;
+ }
+
+
+
+    /* FIN CV */
+
+
+    /* INICIO SERVICIOS */
+
+    .posicionar{
+        background-color: white;
+    }
+
+    .posicionar2{
+        top:45%;
+    }
+
+    .servicios{
+        margin: 30px auto;
+    }
+
+    .serv2{
+        margin-bottom: 70px;
+    }
+    /* FIN SERVICIOS */
+
+    /* INICIO CONTACTO */
+
+
+    
+    /* FIN CONTACTO */
 }
