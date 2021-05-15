@@ -30,13 +30,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: myriad-pro, sans-serif;
-    
 }
 
 /* INICIO HEADER */
-
-
-
 
 .holder {
     padding: 20px;
@@ -62,6 +58,7 @@ body {
 
 nav {
     background-color: #9E8D96;
+    width: 100%;
 }
 
 .botonera {
@@ -158,7 +155,6 @@ h3 {
     color: #83045e;
 }
 
-
 .globulosrojos {
     max-width: 300px;
     padding: 20px 0;
@@ -168,11 +164,13 @@ p {
     color: #9D8189;
     text-align: center;
     line-height: 2em;
+    font-weight: 300;
 }
 
 .slogan {
-    font-weight: 600;
+    font-weight: 400;
     color: #83045e;
+    text-align: center;
 }
 
 /* FIN BIENVENIDA */
@@ -192,7 +190,7 @@ p {
     line-height: 100px;
 }
 
-.col- {
+.col-{
     padding: 0;
 }
 
@@ -202,8 +200,6 @@ p {
 }
 
 /* INICIO CV */
-
-
 
 .cv {
     width: 80%;
@@ -277,8 +273,6 @@ p {
     opacity: 60%;
     margin-left: 0;
 }
-
-
 
 /* FIN CV */
 
@@ -379,26 +373,26 @@ p {
     line-height: 2em;
 }
 
-.fecha {
+.bajada div{
     display: flex;
     /* lo puse para alinear los p y span*/
 }
 
-.fecha p {
+.fecha{
     padding-left: 0.7em;
     color: #b3acae;
-    font-size: 0.8em;
     margin-bottom: 0;
     font-style: italic;
 }
 
-.autor p, .fecha p {
+.bajada p {
     margin-bottom: 0;
+    font-size: 0.8em;
 }
 
-.autor p {
+.autor{
     color: #cc869c;
-    font-size: 0.8em;
+    
     text-align: left;
     padding-left: 0.7em;
 }
@@ -430,6 +424,7 @@ hr {
 .icon-calendar, .icon-clock {
     color: #b3acae;
     margin-left: 0.5em;
+    font-style:normal;
 }
 
 /* FIN ICOMOON NOVEDADES*/
@@ -452,9 +447,10 @@ h4 {
     margin-bottom: 30px;
 }
 
-.contactolabo{
+.contactolabo {
     background-color: white;
 }
+
 .botonform {
     display: flex;
 }
@@ -502,8 +498,7 @@ h4 {
     border: 0.5px dotted #9D8189;
 }
 
-.contacto{
-
+.contacto {
     background-color: #9D8189;
 }
 
@@ -521,8 +516,6 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-top: 55px;
-   
-    
 }
 
 .icon-instagram, .icon-mail, .icon-telefono, .icon-ubicacion {
@@ -610,7 +603,6 @@ footer {
 /* INICIO RESPONSIVE */
 
 @media screen and (min-width: 576px) {
-
     /* HEADER Y NAV */
     header .holder {
         margin: 0 0 0 20px;
@@ -626,8 +618,9 @@ footer {
     }
     nav {
         opacity: 70%;
-        position: relative;
-        top: -210px;
+        position: fixed;
+        top: 0;
+        z-index: +1;
         background-color: #674e56;
     }
     .botonera {
@@ -639,956 +632,563 @@ footer {
         padding: 0 5px;
     }
     /* FIN HEADER Y NAV */
-
-
     /* BOTÓN SUBIR */
-.top{
-    top:14em;
-}
+    .contenedortop {
+        display: none;
+    }
     /* FIN BOTÓN SUBIR */
-
-
     /* INICIO BIENVENIDA */
-
-    .bienvenida{
+    .bienvenida {
         width: 70%;
         margin-bottom: 50px;
     }
-
     .bienvenida h2 {
         font-size: 1.2em;
     }
-
     .bienvenida h3 {
         font-size: 1em;
     }
-
-    .globulosrojos{
+    .globulosrojos {
         max-width: 250px;
     }
-
-    .bienvenida .holder{
+    .bienvenida .holder {
         margin-left: 0;
         padding: 18px 0 15px;
     }
-
-    .bienvenida col{
+    .bienvenida col {
         padding-left: 0;
     }
-
-    p{
+    p {
         font-size: 0.9em;
     }
-
     /* FIN BIENVENIDA */
-
     /* INICIO EQUIPO */
-
-    /* .quienessomos{
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    } */
-
-    .contenedortitulos{
+   
+    .contenedortitulos {
         background-color: #83045e;
-        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
     }
-
-    .titulo{
+    .titulo {
         margin: 0;
     }
-
-    .titulo h2{
+    .titulo h2 {
         font-size: 1.2em;
     }
-
-    
-    .equipoimg{
+    .equipoimg {
         margin-bottom: 0;
     }
-
-  .equipo{
-      margin: 0 auto;
-  }
+    .equipo {
+        margin: 0 auto;
+    }
     /* FIN EQUIPO */
-
-
     /* INICIO CV */
-
- .cv, .cvacordeon, .cv2{
-     width: 50%;
- }
-
-
-
+    .cv, .cvacordeon, .cv2 {
+        width: 50%;
+    }
     /* FIN CV */
-
-
     /* INICIO SERVICIOS */
-
-    .posicionar{
+    .posicionar {
         background-color: white;
     }
-
-    .posicionar2{
-        top:45%;
+    .posicionar2 {
+        top: 45%;
     }
-
-    .servicios{
+    .servicios {
         margin: 30px auto;
     }
-
-    .serv2{
+    .serv2 {
         margin-bottom: 70px;
     }
-
-    .servicios ul{
+    .servicios ul {
         display: block;
         text-align: left;
         padding-left: 80px;
     }
-    /* FIN SERVICIOS */
-
-    /* INICIO CONTACTO */
-
-    .redes{
-        margin-top: 55px;
+    .servicios ul li, .servicios a {
+        font-size: 0.9em;
     }
 
-
+   
+    /* FIN SERVICIOS */
+    /* INICIO CONTACTO */
+    .redes {
+        margin-top: 55px;
+    }
     /* FIN CONTACTO */
+
+     /* INICIO NOVEDADES */
+     .bajada p{
+        font-size:0.8em;
+    }
+    .icon-calendar{
+        margin-left: 1.5em;
+    }
+    /* FIN NOVEDADES */
+
+    /* INICIO FOOTER */
+    footer {
+        font-size: 0.8em;
+    }
+    /* FIN FOOTER */
 }
 
-
-
 @media screen and (min-width: 768px) {
-
     /* HEADER Y NAV */
     header .holder {
-        margin: 0 0 0 20px;
         padding: 100px 0 100px 20px;
-        position: relative;
+       
         top: -30px;
     }
     .logo {
         max-width: 280px;
     }
-    header {
-        background: no-repeat center/100% url(../images/labo2000x855.png);
-    }
-    nav {
-        opacity: 70%;
-        position: relative;
-        top: -286px;
-        background-color: #674e56;
-    }
     .botonera {
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.80em;
+        font-size: 0.8em;
     }
     .botonera li a {
         padding: 0 8px;
     }
     /* FIN HEADER Y NAV */
-
-
-    /* BOTÓN SUBIR */
-.top{
-    top:30em;
-}
-    /* FIN BOTÓN SUBIR */
-
-
-    /* INICIO BIENVENIDA */
-
+    /* INICIO BIENEVENIDA */
     .bienvenida{
-        width: 70%;
-        margin-bottom: 50px;
-    }
-
-    .bienvenida h2 {
-        font-size: 1.2em;
-    }
-
-    .bienvenida h3 {
-        font-size: 1em;
+        margin-top: 30px;
+        width: 700px;
     }
 
     .globulosrojos{
-        max-width: 250px;
-    }
-
-    .bienvenida .holder{
-        margin-left: 0;
-        padding: 18px 0 15px;
-    }
-
-    .bienvenida col{
-        padding-left: 0;
-    }
-
-    p{
-        font-size: 0.9em;
+        max-width: 400px;
     }
 
     /* FIN BIENVENIDA */
-
     /* INICIO EQUIPO */
 
-    /* .quienessomos{
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    } */
-
-    .contenedortitulos{
+    .contenedortitulos {
         background-color: #83045e;
-        margin-bottom: 40px;
-    }
-
-    .titulo{
-        margin: 0;
-    }
-
-    .titulo h2{
+        margin-top: 60px;
+        margin-bottom: 60px;
+       
+    } 
+    .titulo h2 {
         font-size: 1.4em;
     }
-
-    
-    .equipoimg{
-        margin-bottom: 0;
-    }
-
-  .equipo{
-      margin: 0 auto;
-  }
     /* FIN EQUIPO */
-
-
-    /* INICIO CV */
-
- .cv, .cvacordeon, .cv2{
-     width: 50%;
- }
-
-
-
-    /* FIN CV */
-
-
     /* INICIO SERVICIOS */
-
-    .posicionar{
-        background-color: white;
-    }
-
-    .posicionar2{
-        top:45%;
-    }
-
-    .servicios{
+    .servicios {
         margin: 30px auto 70px;
     }
-
-    /* .serv2{
-        margin-bottom: 70px;
-    } */
-
-    .serv2 a{
-        margin-top: 82px;
+    .servicios h3 {
+        font-size: 1em;
+        margin-bottom: 25px;
     }
-
-    .servicios ul{
-        display: block;
+    .servicios p {
         text-align: left;
-        padding-left: 80px;
+      margin: 0 auto;
+            width: 310px;
+        }
+    
+    .serv2 a {
+        margin-top: 114px;
+    }
+    .servicios ul li, .servicios a {
+        font-size: 0.9em;
     }
     /* FIN SERVICIOS */
-
     /* INICIO CONTACTO */
-
-    .formulario{
+    .formulario {
         margin: 50px auto;
     }
-
-    .formulario h4{
+    .formulario h4 {
         margin-bottom: 50px;
     }
     .formulario p input {
         width: 500px;
-       
     }
-
-    .redes{
+    .redes {
         margin-top: 55px;
     }
-
-    .formulario textarea{
-        width:500px;
+    .formulario textarea {
+        width: 500px;
     }
-
     .formulario input[type="submit"], .formulario input[type="reset"] {
         width: 7em;
-        padding:10px;
-        
+        padding: 10px;
     }
-    
     /* FIN CONTACTO */
+
+    /* INICIO NOVEDADES */
+    .bajada p{
+        font-size:0.8em;
+    }
+    /* FIN NOVEDADES */
+
+    /* INICIO FOOTER */
+    /* INICIO FOOTER */
 }
 
-
 @media screen and (min-width: 992px) {
-
     /* HEADER Y NAV */
     header .holder {
-        margin: 0 0 0 20px;
         padding: 120px 0 120px 20px;
-        position: relative;
+      
         top: -50px;
     }
     .logo {
         max-width: 350px;
     }
-    header {
-        background: no-repeat center/100% url(../images/labo2000x855.png);
-    }
-    nav {
-        opacity: 70%;
-        position: relative;
-        top: -350px;
-        background-color: #674e56;
-    }
     .botonera {
-        display: flex;
-        justify-content: flex-end;
-        font-size: 1em;
-    }
-    .botonera li a {
-        padding: 0 8px;
+        font-size: 0.9em;
     }
     /* FIN HEADER Y NAV */
-
-
-    /* BOTÓN SUBIR */
-.top{
-    top:30em;
-}
-    /* FIN BOTÓN SUBIR */
-
-
     /* INICIO BIENVENIDA */
-
-    .bienvenida{
-        width: 80%;
+    .bienvenida {
+        width: 700px;
+        margin-top: 50px;
         margin-bottom: 50px;
     }
-
     .bienvenida h2 {
         font-size: 1.5em;
+        margin-bottom: 30px;
     }
-
     .bienvenida h3 {
         font-size: 1.2em;
+        margin-bottom: 20px;
     }
-
-    .globulosrojos{
-        max-width: 350px;
+    .globulosrojos {
+        max-width: 450px;
     }
-
-    .bienvenida .holder{
+    .bienvenida .holder {
         margin-left: 0;
         padding: 18px 0 15px;
     }
-
-    .bienvenida col{
-        padding-left: 0;
-    }
-
-    p{
-        font-size: 1.1em;
+    p {
+        font-size: 1em;
         line-height: 2.3;
-        text-align: left;
-    }
-
-    /* FIN BIENVENIDA */
-
-    /* INICIO EQUIPO */
-
-    /* .quienessomos{
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    } */
-
-    .contenedortitulos{
-        background-color: #83045e;
-        margin-bottom: 40px;
-    }
-
-    .titulo{
-        margin: 0;
-    }
-
-    .titulo h2{
-        font-size: 1.6em;
-    } 
-
-   
-    .equipoimg{
-        margin-bottom: 0;
-    }
-
-  .equipo{
-      margin: 0 auto;
-  }
-    /* FIN EQUIPO */
-
-
-    /* INICIO CV */
-
- .cv, .cvacordeon, .cv2{
-     width: 50%;
- }
-
-
-
-    /* FIN CV */
-
-
-    /* INICIO SERVICIOS */
-
-    .posicionar{
-        background-color: white;
-    }
-
-    .posicionar2{
-        top:45%;
-        font-size: 1.2em;
-    }
-
-    .servicios{
-        margin: 30px auto 70px;
-    }
-    .servicios img{
-        max-width: 250px;
-    }
-    /* .serv2{
-        margin-bottom: 70px;
-    } */
-
-    .serv2 a{
-        margin-top: 151px;
-        font-size: 0.9em;
-        line-height: 2.3em;
-    }
-
-    .servicios ul{
-        display: block;
-        text-align: left;
-        padding-left: 80px;
-    }
-    /* FIN SERVICIOS */
-
-    /* INICIO CONTACTO */
-
-    .formulario{
-        margin: 50px auto;
-    }
-
-    .formulario h4{
-        margin-bottom: 50px;
-    }
-    .formulario p input {
-        width: 500px;
-       
-    }
-
-    .redes{
-        margin-top: 55px;
-    }
-
-    .formulario textarea{
-        width:500px;
-    }
-
-    .formulario input[type="submit"], .formulario input[type="reset"] {
-        width: 7em;
-        padding:10px;
         
     }
-    
+    /* FIN BIENVENIDA */
+    /* INICIO EQUIPO */
+    .titulo h2 {
+        font-size: 1.6em;
+    }
+    /* FIN EQUIPO */
+    /* INICIO SERVICIOS */
+    .posicionar2 {
+        font-size: 1.2em;
+    }
+    .servicios {
+        margin: 30px auto 70px;
+    }
+    .servicios img {
+        max-width: 250px;
+    }
+    .servicios h3 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .servicios p{
+        width: 400px;
+        margin:0 auto;
+    }
+    .serv2 a {
+        margin-top: 138px;
+        line-height: 2em;
+    }
+    /* FIN SERVICIOS */
+    /* INICIO CONTACTO */
+    .formulario{
+        width: 100%;
+    }
     /* FIN CONTACTO */
+    /* INICIO FOOTER */
+    footer {
+        font-size: 0.9em;
+    }
+    /* FIN FOOTER */
 }
 
-
 @media screen and (min-width: 1200px) {
-
     /* HEADER Y NAV */
     header .holder {
-        margin: 0 0 0 20px;
         padding: 150px 0 150px 20px;
-        position: relative;
+      
         top: -80px;
     }
     .logo {
         max-width: 480px;
     }
-    header {
-        background: no-repeat center/100% url(../images/labo2000x855.png);
-    }
-    nav {
-        opacity: 70%;
-        position: relative;
-        top: -450px;
-        background-color: #674e56;
-    }
-    .botonera {
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-    }
+   
     .botonera li a {
         padding: 0 12px;
         line-height: 50px;
     }
     /* FIN HEADER Y NAV */
-
-
-    /* BOTÓN SUBIR */
-.top{
-    top:35em;
-    padding-right: 30px;
-}
-    /* FIN BOTÓN SUBIR */
-
-
     /* INICIO BIENVENIDA */
-
-    .bienvenida{
-        width: 80%;
+    .bienvenida {
+       width: 100%;
         margin-bottom: 50px;
     }
-
     .bienvenida h2 {
         font-size: 1.6em;
-        padding-top: 50px;
+     
     }
-
     .bienvenida h3 {
-        padding-top: 50px;
-        font-size: 1.4em;
-    }
-
-    .globulosrojos{
-        max-width: 600px;
-        padding: 40px;
-    }
-
-    .bienvenida .holder{
-        margin-left: 0;
-        padding: 18px 0 15px;
-    }
-
-    .bienvenida col{
-        padding-left: 0;
-    }
-
-    p{
-        font-size: 1em;
-        line-height: 2.1;
-        text-align: left;
-    }
-
-    /* FIN BIENVENIDA */
-
-    /* INICIO EQUIPO */
-
-    /* .quienessomos{
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    } */
-
-    .contenedortitulos{
-        background-color: #83045e;
-        margin-bottom: 40px;
-    }
-
-    .titulo{
-        margin: 0;
-    }
-
-    .titulo h2{
-        font-size: 1.4em;
-    } 
-
-   
-    .equipoimg{
-        margin-bottom: 0;
-    }
-
-    .equipoimgt{
-        background-color: white;
-    }
-
-  .equipo{
-      margin: 0 auto;
-  }
-    /* FIN EQUIPO */
-
-
-    /* INICIO CV */
-
- .cv, .cvacordeon, .cv2{
-     width: 50%;
- }
-
-
-
-    /* FIN CV */
-
-
-    /* INICIO SERVICIOS */
-
-    .posicionar{
-        background-color: white;
-    }
-
-    .posicionar2{
-        top:45%;
+       
         font-size: 1.2em;
     }
-   
-    .servicios{
-        margin: 30px auto 70px;
+    .globulosrojos {
+        max-width: 550px;
+        padding: 40px;
     }
-
-  .servicios h3{
-      font-size: 1.4em;
-      line-height: 1.2;
-      margin-bottom: 20px;
-  }
-.servicios img{
-    max-width: 300px;
-}
-    .serv2 a{
-        margin-top: 129px;
+    p {
+        font-size: 1em;
+        line-height: 2.3;
+       
+    }
+    /* FIN BIENVENIDA */
+    /* INICIO EQUIPO */
+  
+    .titulo h2 {
+        font-size: 1.8em;
+    }
+   
+    .equipoimgt {
+        background-color: white;
+    }
+    
+    /* FIN EQUIPO */
+    /* INICIO CV */
+   
+    /* FIN CV */
+    /* INICIO SERVICIOS */
+    
+  
+    .servicios {
+        margin: 100px auto 140px;
+    }
+    .servicios h3 {
+        font-size: 1.4em;
+        line-height: 1.2;
+       
+    }
+    .servicios img {
+        max-width: 300px;
+    }
+    .serv2 a {
+        margin-top: 138px;
         line-height: 2em;
     }
-
-    .servicios ul{
+    .servicios ul {
         display: block;
         text-align: left;
-        padding-left: 80px;
+        padding-left: 100px;
         font-size: 1em;
+        width: 700px;
     }
-
-    .servicios a{
-        font-size: 1em;
-    }
-  
-    
+   
     /* FIN SERVICIOS */
-
     /* INICIO CONTACTO */
-
-    .contacto{
+    .contacto {
         font-size: 0.9em;
     }
-    .formulario{
-        margin: 50px auto;
-    }
-
-    .formulario h4{
+   
+  
+    .formulario h4 {
         margin-bottom: 50px;
+    
     }
     .formulario p input {
         width: 500px;
-       
     }
-
-    .redes{
-        margin-top: 55px;
-    }
-
-    .formulario textarea{
-        width:500px;
-    }
-
+   
+   
     .formulario input[type="submit"], .formulario input[type="reset"] {
         width: 7em;
-        padding:10px;
-        
+        padding: 10px;
     }
-    
+
+    .contactos p{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
     /* FIN CONTACTO */
-
-/* INICIO NOVEDADES */
-
-.novedadestitulo{
-font-size: 2.4em;
-}
-
-.novedades h4{
-font-size: 2em;
-}
-
-.bajada p{ 
-    font-size: 1.3em;
-}
-
-.bajada span{
-    line-height: 2em;
-}
-.icon-calendar, .icon-clock {
- font-size: 1.4em;
-}
-
-/* FIN NOVEDADES */
-
+    /* INICIO NOVEDADES */
+    .novedadestitulo {
+        font-size: 2.4em;
+    }
+    .novedades h4 {
+        font-size: 2em;
+    }
+    .bajada p {
+        font-size: 0.9em;
+    }
+    .bajada span {
+        line-height: 2em;
+    }
+    .icon-calendar{
+        margin-left: 1.5em;
+    }
+    .icon-calendar, .icon-clock {
+        font-size: 1em;
+    }
+    /* FIN NOVEDADES */
     /* INICIO FOOTER */
-
-footer{
-    font-size: 0.9em;
-}
-
+    footer {
+        font-size: 0.9em;
+    }
     /* FIN FOOTER */
 }
 
 @media screen and (min-width: 1400px) {
-
     /* HEADER Y NAV */
     header .holder {
-        margin: 0 0 0 20px;
         padding: 180px 0 180px 20px;
-        position: relative;
         top: -116px;
     }
     .logo {
-        max-width: 530px;
+        max-width: 500px;
     }
-    header {
-        background: no-repeat center/100% url(../images/labo2000x855.png);
-    }
-    nav {
-        opacity: 70%;
-        position: relative;
-        top: -525px;
-        background-color: #674e56;
-    }
+ 
+   
     .botonera {
         display: flex;
         justify-content: flex-end;
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .botonera li a {
         padding: 0 16px;
         line-height: 50px;
     }
+
     /* FIN HEADER Y NAV */
-
-
-    /* BOTÓN SUBIR */
-.top{
-    top:40em;
-    padding-right: 30px;
-}
-    /* FIN BOTÓN SUBIR */
-
-
+    
     /* INICIO BIENVENIDA */
-
-    .bienvenida{
+    .bienvenida {
         width: 80%;
-        margin-bottom: 50px;
+      
     }
-
     .bienvenida h2 {
-        font-size: 1.8em;
+        font-size: 1.7em;
         padding-top: 50px;
     }
-
     .bienvenida h3 {
         padding-top: 50px;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
-
-    .globulosrojos{
+    .globulosrojos {
         max-width: 600px;
         padding: 40px;
     }
-
-    .bienvenida .holder{
-        margin-left: 0;
-        padding: 18px 0 15px;
-    }
-
-    .bienvenida col{
-        padding-left: 0;
-    }
-
-    p{
-        font-size: 1.1em;
+   
+    p {
+        font-size: 1em;
         line-height: 2.1;
-        text-align: left;
+        
     }
-
     /* FIN BIENVENIDA */
-
     /* INICIO EQUIPO */
-
-    /* .quienessomos{
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    } */
-
-    .contenedortitulos{
+  
+    .contenedortitulos {
         background-color: #83045e;
         margin-bottom: 40px;
     }
-
-    .titulo{
+    .titulo {
         margin: 0;
     }
-
-    .titulo h2{
-        font-size: 1.4em;
-    } 
-
-   
-    .equipoimg{
+    .titulo h2 {
+        font-size: 1.8em;
+    }
+    .equipoimg {
         margin-bottom: 0;
     }
-
-    .equipoimgt{
+    .equipoimgt {
         background-color: white;
     }
-
-  .equipo{
-      margin: 0 auto;
-  }
+    .equipo {
+        margin: 0 auto;
+    }
     /* FIN EQUIPO */
-
-
     /* INICIO CV */
-
- .cv, .cvacordeon, .cv2{
-     width: 50%;
- }
-
-
-
+    .cv, .cvacordeon, .cv2 {
+        width: 50%;
+    }
     /* FIN CV */
-
-
     /* INICIO SERVICIOS */
-
-    .posicionar{
+    .posicionar {
         background-color: white;
     }
-
-    .posicionar2{
-        top:45%;
-        font-size: 1.5em;
+    .posicionar2 {
+        top: 45%;
+        font-size: 1.3em;
     }
-   
-    .servicios{
-        margin: 30px 0 70px; 
-       
+    
+    .servicios img {
+        max-width: 300px;
     }
-
-    .serv1{
-        margin-right: 50px;
-        margin-left: 200px;
+    .serv2 a {
+        margin-top: 93px;
+        line-height: 2.2em;
     }
-
-  .servicios h3{
-      line-height: 1.2;
-      margin-bottom: 20px;
-  }
-.servicios img{
-    max-width: 300px;
-}
-    .serv2 a{
-        margin-top: 141px;
-        line-height: 2em;
-    }
-
-    .servicios ul{
+    .servicios ul {
         display: block;
         text-align: left;
-        padding-left: 80px;
+        padding-left: 70px;
         font-size: 1.1em;
+        width: 700px;
+    }
+
+    .servicios p{
+        width: 500px;
     }
 
     .servicios a{
-        font-size: 1.1em;
+        font-size: 1em;
     }
-  
-    
+   
     /* FIN SERVICIOS */
-
     /* INICIO CONTACTO */
-
-    .formulario{
-        margin: 50px auto;
+    .formulario {
+        margin: 80px auto 100px;
     }
-
-    .formulario h4{
+    .formulario h4 {
         margin-bottom: 50px;
     }
     .formulario p input {
         width: 500px;
-       
     }
-
-    .redes{
+    .redes {
         margin-top: 55px;
     }
-
-    .formulario textarea{
-        width:500px;
+    .formulario textarea {
+        width: 500px;
     }
-
     .formulario input[type="submit"], .formulario input[type="reset"] {
         width: 7em;
-        padding:10px;
-        
+        padding: 10px;
     }
-    
     /* FIN CONTACTO */
-
-/* INICIO NOVEDADES */
-
-.novedadestitulo{
-font-size: 2.4em;
-}
-
-.novedades h4{
-font-size: 2em;
-}
-
-.bajada p{ 
-    font-size: 1.3em;
-}
-
-.bajada span{
-    line-height: 2em;
-}
-.icon-calendar, .icon-clock {
- font-size: 1.4em;
-}
-
-/* FIN NOVEDADES */
-
+    /* INICIO NOVEDADES */
+    .novedadestitulo {
+        font-size: 2.4em;
+    }
+    .novedades h4 {
+        font-size: 2em;
+    }
+    .bajada p {
+        font-size: 1.3em;
+    }
+    .bajada span {
+        line-height: 2em;
+    }
+    .icon-calendar, .icon-clock {
+        font-size: 1.4em;
+    }
+    /* FIN NOVEDADES */
     /* INICIO FOOTER */
-
-footer{
-    font-size: 1.1em;
-}
-
+    footer {
+        font-size: 1em;
+    }
     /* FIN FOOTER */
 }
