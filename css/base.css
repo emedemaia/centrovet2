@@ -30,6 +30,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: myriad-pro, sans-serif;
+  
 }
 
 /* INICIO HEADER */
@@ -50,6 +51,12 @@ body {
 
 .maxwidthcontent {
     max-width: 100%;
+}
+
+.imgbienvenida {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* FIN HEADER */
@@ -157,7 +164,7 @@ h3 {
 
 .globulosrojos {
     max-width: 300px;
-    padding: 20px 0;
+  margin: 0 auto;;
 }
 
 p {
@@ -190,7 +197,7 @@ p {
     line-height: 100px;
 }
 
-.col-{
+.col- {
     padding: 0;
 }
 
@@ -373,12 +380,12 @@ p {
     line-height: 2em;
 }
 
-.bajada div{
+.bajada div {
     display: flex;
     /* lo puse para alinear los p y span*/
 }
 
-.fecha{
+.fecha {
     padding-left: 0.7em;
     color: #b3acae;
     margin-bottom: 0;
@@ -390,9 +397,8 @@ p {
     font-size: 0.8em;
 }
 
-.autor{
+.autor {
     color: #cc869c;
-    
     text-align: left;
     padding-left: 0.7em;
 }
@@ -424,7 +430,7 @@ hr {
 .icon-calendar, .icon-clock {
     color: #b3acae;
     margin-left: 0.5em;
-    font-style:normal;
+    font-style: normal;
 }
 
 /* FIN ICOMOON NOVEDADES*/
@@ -617,7 +623,7 @@ footer {
         background: no-repeat center/100% url(../images/labo2000x855.png);
     }
     nav {
-        opacity: 70%;
+        opacity: 90%;
         position: fixed;
         top: 0;
         z-index: +1;
@@ -663,12 +669,10 @@ footer {
     }
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
-   
     .contenedortitulos {
         background-color: #83045e;
         margin-top: 20px;
         margin-bottom: 20px;
-       
     }
     .titulo {
         margin: 0;
@@ -709,24 +713,20 @@ footer {
     .servicios ul li, .servicios a {
         font-size: 0.9em;
     }
-
-   
     /* FIN SERVICIOS */
     /* INICIO CONTACTO */
     .redes {
         margin-top: 55px;
     }
     /* FIN CONTACTO */
-
-     /* INICIO NOVEDADES */
-     .bajada p{
-        font-size:0.8em;
+    /* INICIO NOVEDADES */
+    .bajada p {
+        font-size: 0.8em;
     }
-    .icon-calendar{
+    .icon-calendar {
         margin-left: 1.5em;
     }
     /* FIN NOVEDADES */
-
     /* INICIO FOOTER */
     footer {
         font-size: 0.8em;
@@ -738,7 +738,6 @@ footer {
     /* HEADER Y NAV */
     header .holder {
         padding: 100px 0 100px 20px;
-       
         top: -30px;
     }
     .logo {
@@ -752,24 +751,20 @@ footer {
     }
     /* FIN HEADER Y NAV */
     /* INICIO BIENEVENIDA */
-    .bienvenida{
+    .bienvenida {
         margin-top: 30px;
         width: 700px;
     }
-
-    .globulosrojos{
+    .globulosrojos {
         max-width: 400px;
     }
-
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
-
     .contenedortitulos {
         background-color: #83045e;
         margin-top: 60px;
         margin-bottom: 60px;
-       
-    } 
+    }
     .titulo h2 {
         font-size: 1.4em;
     }
@@ -784,10 +779,9 @@ footer {
     }
     .servicios p {
         text-align: left;
-      margin: 0 auto;
-            width: 310px;
-        }
-    
+        margin: 0 auto;
+        width: 310px;
+    }
     .serv2 a {
         margin-top: 114px;
     }
@@ -816,13 +810,11 @@ footer {
         padding: 10px;
     }
     /* FIN CONTACTO */
-
     /* INICIO NOVEDADES */
-    .bajada p{
-        font-size:0.8em;
+    .bajada p {
+        font-size: 0.8em;
     }
     /* FIN NOVEDADES */
-
     /* INICIO FOOTER */
     /* INICIO FOOTER */
 }
@@ -831,7 +823,6 @@ footer {
     /* HEADER Y NAV */
     header .holder {
         padding: 120px 0 120px 20px;
-      
         top: -50px;
     }
     .logo {
@@ -865,7 +856,6 @@ footer {
     p {
         font-size: 1em;
         line-height: 2.3;
-        
     }
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
@@ -887,10 +877,9 @@ footer {
         font-size: 1.3em;
         margin-bottom: 20px;
     }
-
-    .servicios p{
+    .servicios p {
         width: 400px;
-        margin:0 auto;
+        margin: 0 auto;
     }
     .serv2 a {
         margin-top: 138px;
@@ -898,7 +887,7 @@ footer {
     }
     /* FIN SERVICIOS */
     /* INICIO CONTACTO */
-    .formulario{
+    .formulario {
         width: 100%;
     }
     /* FIN CONTACTO */
@@ -913,29 +902,30 @@ footer {
     /* HEADER Y NAV */
     header .holder {
         padding: 150px 0 150px 20px;
-      
         top: -80px;
     }
+
     .logo {
         max-width: 480px;
     }
-   
     .botonera li a {
         padding: 0 12px;
         line-height: 50px;
     }
+
+    .botonera{
+        font-size: 0.95em;
+    }
     /* FIN HEADER Y NAV */
     /* INICIO BIENVENIDA */
     .bienvenida {
-       width: 100%;
+        width: 80%;
         margin-bottom: 50px;
     }
     .bienvenida h2 {
         font-size: 1.6em;
-     
     }
     .bienvenida h3 {
-       
         font-size: 1.2em;
     }
     .globulosrojos {
@@ -945,33 +935,25 @@ footer {
     p {
         font-size: 1em;
         line-height: 2.3;
-       
     }
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
-  
     .titulo h2 {
         font-size: 1.8em;
     }
-   
     .equipoimgt {
         background-color: white;
     }
-    
     /* FIN EQUIPO */
     /* INICIO CV */
-   
     /* FIN CV */
     /* INICIO SERVICIOS */
-    
-  
     .servicios {
         margin: 100px auto 140px;
     }
     .servicios h3 {
         font-size: 1.4em;
         line-height: 1.2;
-       
     }
     .servicios img {
         max-width: 300px;
@@ -985,31 +967,27 @@ footer {
         text-align: left;
         padding-left: 100px;
         font-size: 1em;
-        width: 700px;
+       
     }
-   
+
+  
+
     /* FIN SERVICIOS */
     /* INICIO CONTACTO */
     .contacto {
         font-size: 0.9em;
     }
-   
-  
     .formulario h4 {
         margin-bottom: 50px;
-    
     }
     .formulario p input {
         width: 500px;
     }
-   
-   
     .formulario input[type="submit"], .formulario input[type="reset"] {
         width: 7em;
         padding: 10px;
     }
-
-    .contactos p{
+    .contactos p {
         font-size: 1.1em;
         font-weight: 400;
     }
@@ -1027,7 +1005,7 @@ footer {
     .bajada span {
         line-height: 2em;
     }
-    .icon-calendar{
+    .icon-calendar {
         margin-left: 1.5em;
     }
     .icon-calendar, .icon-clock {
@@ -1050,24 +1028,18 @@ footer {
     .logo {
         max-width: 500px;
     }
- 
-   
     .botonera {
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
+       
+        font-size: 0.95em;
     }
     .botonera li a {
         padding: 0 16px;
         line-height: 50px;
     }
-
     /* FIN HEADER Y NAV */
-    
     /* INICIO BIENVENIDA */
     .bienvenida {
         width: 80%;
-      
     }
     .bienvenida h2 {
         font-size: 1.7em;
@@ -1081,15 +1053,12 @@ footer {
         max-width: 600px;
         padding: 40px;
     }
-   
     p {
-        font-size: 1em;
+        font-size: 1.05em;
         line-height: 2.1;
-        
     }
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
-  
     .contenedortitulos {
         background-color: #83045e;
         margin-bottom: 40px;
@@ -1123,7 +1092,6 @@ footer {
         top: 45%;
         font-size: 1.3em;
     }
-    
     .servicios img {
         max-width: 300px;
     }
@@ -1136,17 +1104,14 @@ footer {
         text-align: left;
         padding-left: 70px;
         font-size: 1.1em;
-        width: 700px;
+        
     }
-
-    .servicios p{
+    .servicios p {
         width: 500px;
     }
-
-    .servicios a{
+    .servicios a {
         font-size: 1em;
     }
-   
     /* FIN SERVICIOS */
     /* INICIO CONTACTO */
     .formulario {
