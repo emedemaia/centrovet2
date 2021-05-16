@@ -113,7 +113,7 @@ a {
 
 .top {
     position: fixed;
-    top: 35em;
+    top: 80%;
     z-index: 1;
 }
 
@@ -125,7 +125,8 @@ a {
 }
 
 .top a img {
-    max-width: 50px;
+    min-width: 35px;
+    max-width: 40px;
     filter: invert(40%);
 }
 
@@ -162,7 +163,8 @@ h3 {
 }
 
 .globulosrojos {
-    background: no-repeat top/1000px url(../images/globulosryb2.jpg) fixed;
+    background: no-repeat top/300px url(../images/globulosryb2.jpg);
+    /* fixed para parallax*/
     min-height: 200px;
     min-width: 50px;
     margin: 0 auto;
@@ -467,9 +469,14 @@ h4 {
     border: 0.5px dotted #9D8189;
 }
 
-.formulario input[placeholder="opcional"] {
+.formulario input[placeholder=" opcional"],
+.formulario input[placeholder=" ejemplo@mail.com"]  {
     font-style: italic;
+    font-weight: 300;
+    font-size: 0.9em;
 }
+
+
 
 .formulario input[type="submit"], .formulario input[type="reset"] {
     width: 5em;
@@ -636,13 +643,13 @@ footer {
         font-size: 0.75em;
     }
     .botonera li a {
-        padding: 0 5px;
+        padding: 0 8px;
     }
     /* FIN HEADER Y NAV */
     /* BOTÓN SUBIR */
-    .contenedortop {
+    /* .contenedortop {
         display: none;
-    }
+    } */
     /* FIN BOTÓN SUBIR */
     /* INICIO BIENVENIDA */
     .bienvenida {
@@ -656,7 +663,7 @@ footer {
         font-size: 1em;
     }
     .globulosrojos {
-        background: no-repeat top/800px url(../images/globulosryb2.jpg) fixed;
+        background: no-repeat top/300px url(../images/globulosryb2.jpg);
         min-height: 200px;
         min-width: 100px;
         margin: 0 auto;
@@ -751,7 +758,7 @@ footer {
         font-size: 0.8em;
     }
     .botonera li a {
-        padding: 0 8px;
+        padding: 0 10px;
     }
     /* FIN HEADER Y NAV */
     /* INICIO BIENEVENIDA */
@@ -760,14 +767,11 @@ footer {
         width: 700px;
     }
     .globulosrojos {
-        background: no-repeat top/1000px url(../images/globulosryb2.jpg) fixed;
-        min-height: 210px;
-        min-width: 150px;
-        max-width: 450px;
+        background: no-repeat center/400px url(../images/globulosryb2.jpg);
+        min-height: 300px;
+        min-width: 350px;
         margin: 0 auto;
     }
-
-
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
     .contenedortitulos {
@@ -841,6 +845,9 @@ footer {
     .botonera {
         font-size: 0.9em;
     }
+    .botonera li a {
+        padding: 0 13px;
+    }
     /* FIN HEADER Y NAV */
     /* INICIO BIENVENIDA */
     .bienvenida {
@@ -856,14 +863,15 @@ footer {
         font-size: 1.2em;
         margin-bottom: 20px;
     }
+    .imgbienvenida {
+        margin-bottom: 40px;
+    }
     .globulosrojos {
-        background: no-repeat bottom/1200px url(../images/globulosryb2.jpg) fixed;
+        background: no-repeat bottom/500px url(../images/globulosryb2.jpg);
         min-height: 300px;
-        min-width: 150px;
-        max-width: 550px;
+        min-width: 250px;
         margin: 0 auto;
     }
-
     .bienvenida .holder {
         margin-left: 0;
         padding: 18px 0 15px;
@@ -923,8 +931,8 @@ footer {
         max-width: 480px;
     }
     .botonera li a {
-        padding: 0 12px;
-        line-height: 50px;
+        padding: 0 17px;
+        line-height: 45px;
     }
     .botonera {
         font-size: 0.95em;
@@ -941,14 +949,15 @@ footer {
     .bienvenida h3 {
         font-size: 1.2em;
     }
-     .globulosrojos {
-        background: no-repeat top/1500px url(../images/globulosryb2.jpg) fixed;
+    .imgbienvenida {
+        margin-bottom: 50px;
+    }
+    .globulosrojos {
+        background: no-repeat top/500px url(../images/globulosryb2.jpg);
         min-height: 300px;
         min-width: 150px;
-        max-width: 600px;
         margin: 0 auto;
     }
-    
     p {
         font-size: 1em;
         line-height: 2.3;
@@ -1042,11 +1051,11 @@ footer {
         max-width: 500px;
     }
     .botonera {
-        font-size: 0.95em;
+        font-size: 1em;
     }
     .botonera li a {
-        padding: 0 16px;
-        line-height: 50px;
+        padding: 0 18px;
+     
     }
     /* FIN HEADER Y NAV */
     /* INICIO BIENVENIDA */
@@ -1061,11 +1070,13 @@ footer {
         padding-top: 50px;
         font-size: 1.3em;
     }
+    .imgbienvenida {
+        margin-bottom: 50px;
+    }
     .globulosrojos {
-        background: no-repeat bottom/1700px url(../images/globulosryb2.jpg) fixed;
-        min-height: 300px;
+        background: no-repeat bottom/600px url(../images/globulosryb2.jpg);
+        min-height: 400px;
         min-width: 150px;
-        max-width: 700px;
         margin: 0 auto;
     }
     p {
