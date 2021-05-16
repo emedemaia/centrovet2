@@ -470,7 +470,8 @@ h4 {
 }
 
 .formulario input[placeholder=" opcional"],
-.formulario input[placeholder=" ejemplo@mail.com"]  {
+.formulario input[placeholder=" ejemplo@mail.com"],
+.formulario textarea[placeholder=" Escriba aquí..."]  {
     font-style: italic;
     font-weight: 300;
     font-size: 0.9em;
