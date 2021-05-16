@@ -162,7 +162,7 @@ h3 {
 }
 
 .globulosrojos {
-    background: no-repeat top/1000px url(../images/globulosryb2.png) fixed;
+    background: no-repeat top/1000px url(../images/globulosryb2.jpg) fixed;
     min-height: 200px;
     min-width: 50px;
     margin: 0 auto;
@@ -612,7 +612,7 @@ footer {
 @media screen and (min-width: 576px) {
     /* HEADER Y NAV */
     header {
-        background: no-repeat center/100% url(../images/labo2000x855.png);
+        background: no-repeat center/100% url(../images/labo2000x855.jpg);
     }
     header .holder {
         margin: 0 0 0 20px;
@@ -656,7 +656,7 @@ footer {
         font-size: 1em;
     }
     .globulosrojos {
-        background: no-repeat top/800px url(../images/globulosryb2.png) fixed;
+        background: no-repeat top/800px url(../images/globulosryb2.jpg) fixed;
         min-height: 200px;
         min-width: 100px;
         margin: 0 auto;
@@ -760,7 +760,7 @@ footer {
         width: 700px;
     }
     .globulosrojos {
-        background: no-repeat top/1000px url(../images/globulosryb2.png) fixed;
+        background: no-repeat top/1000px url(../images/globulosryb2.jpg) fixed;
         min-height: 210px;
         min-width: 150px;
         max-width: 450px;
@@ -857,7 +857,7 @@ footer {
         margin-bottom: 20px;
     }
     .globulosrojos {
-        background: no-repeat bottom/1200px url(../images/globulosryb2.png) fixed;
+        background: no-repeat bottom/1200px url(../images/globulosryb2.jpg) fixed;
         min-height: 300px;
         min-width: 150px;
         max-width: 550px;
@@ -942,7 +942,7 @@ footer {
         font-size: 1.2em;
     }
      .globulosrojos {
-        background: no-repeat top/1500px url(../images/globulosryb2.png) fixed;
+        background: no-repeat top/1500px url(../images/globulosryb2.jpg) fixed;
         min-height: 300px;
         min-width: 150px;
         max-width: 600px;
@@ -1062,7 +1062,7 @@ footer {
         font-size: 1.3em;
     }
     .globulosrojos {
-        background: no-repeat bottom/1700px url(../images/globulosryb2.png) fixed;
+        background: no-repeat bottom/1700px url(../images/globulosryb2.jpg) fixed;
         min-height: 300px;
         min-width: 150px;
         max-width: 700px;
@@ -1156,13 +1156,13 @@ footer {
         font-size: 2em;
     }
     .bajada p {
-        font-size: 1.3em;
+        font-size: 0.9em;
     }
     .bajada span {
         line-height: 2em;
     }
     .icon-calendar, .icon-clock {
-        font-size: 1.4em;
+        font-size: 1em;
     }
     /* FIN NOVEDADES */
     /* INICIO FOOTER */
