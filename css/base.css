@@ -369,7 +369,8 @@ p {
 /* INICIO NOVEDADES */
 
 .novedadestitulo {
-    margin: 50px auto;
+    padding-top: 50px;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -1102,8 +1103,9 @@ footer {
     }
     /* FIN CONTACTO */
     /* INICIO NOVEDADES */
+
     .novedadestitulo {
-        margin-top: 20px;
+       
         font-size: 2.4em;
     }
     .novedades h4 {
@@ -1244,9 +1246,7 @@ footer {
     }
     /* FIN CONTACTO */
     /* INICIO NOVEDADES */
-    .novedadestitulo {
-        font-size: 2.4em;
-    }
+   
     .novedades h4 {
         font-size: 2em;
     }
