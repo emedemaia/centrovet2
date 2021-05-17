@@ -369,7 +369,7 @@ p {
 /* INICIO NOVEDADES */
 
 .novedadestitulo {
-    padding-top: 50px;
+    padding: 50px 0;
     margin: 0 auto;
     width: 100%;
 }
