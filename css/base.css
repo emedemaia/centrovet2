@@ -468,7 +468,7 @@ hr {
 }
 
 .galeimg {
-    border: 0.5px dotted #9D8189;
+    border: 1px dotted #9D8189;
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -739,7 +739,7 @@ footer {
     }
     .cv, .cvacordeon, .cv2 {
         width: 150px;
-        border: 0.9px dotted #9D8189;
+        border: 1px dotted #9D8189;
     }
     .cvacordeon {
         margin: 0;
@@ -1103,6 +1103,7 @@ footer {
     /* FIN CONTACTO */
     /* INICIO NOVEDADES */
     .novedadestitulo {
+        margin-top: 20px;
         font-size: 2.4em;
     }
     .novedades h4 {
