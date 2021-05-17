@@ -9,6 +9,7 @@ Bold:700
 colores:
 botonera:#9E8D96
 clientes/rosa logo: #F5C1DD
+otro rosa: #ee9fc9
 violeta logo: #83045e
 texto oscuro:#9D8189
 más oscuro:#674e56
@@ -146,7 +147,7 @@ a {
     padding-top: 30px;
     font-weight: 600;
     text-align: center;
-    color: #F5C1DD;
+    color: #ee9fc9;
 }
 
 h3 {
@@ -171,7 +172,7 @@ h3 {
 }
 
 p {
-    color: #9D8189;
+    color: #674e56;
     text-align: center;
     line-height: 2em;
     font-weight: 300;
@@ -216,17 +217,23 @@ p {
     border: 1px solid #9D8189;
     border-bottom: none;
     margin: 20px auto 0;
+    display: flex;
     /* border-radius: 10px 10px 0 0; */
 }
 
+.cvimg {
+    width: 50%;
+}
+
 .cv img, .cv2 img {
-    display: block;
     max-width: 100%;
     padding: 10px;
     margin: 0 auto;
 }
 
 .vete {
+    align-self: center;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -234,13 +241,14 @@ p {
     color: #83045e;
     font-weight: 400;
     width: 100%;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .cv2 {
     width: 80%;
     border: 1px solid #9D8189;
     margin: 20px auto 25px;
+    display: flex;
 }
 
 .cvacordeon {
@@ -367,7 +375,7 @@ p {
 
 .novedadestitulo h2 {
     text-align: center;
-    color: #F5C1DD;
+    color: #ee9fc9;
     font-weight: 600;
 }
 
@@ -440,6 +448,33 @@ hr {
 
 /* FIN NOVEDADES */
 
+/* INICIO GALERÍA */
+
+.galeria {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.galeria:last-child {
+    float: left;
+}
+
+.galeria img {
+    width: 200px;
+    padding: 10px;
+}
+
+.galeimg {
+    border: 0.5px dotted #9D8189;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* FIN GALERÍA */
+
 /* INICIO CONTACTO */
 
 .formulario {
@@ -469,15 +504,11 @@ h4 {
     border: 0.5px dotted #9D8189;
 }
 
-.formulario input[placeholder=" opcional"],
-.formulario input[placeholder=" ejemplo@mail.com"],
-.formulario textarea[placeholder=" Escriba aquí..."]  {
+.formulario input[placeholder=" opcional"], .formulario input[placeholder=" ejemplo@mail.com"], .formulario textarea[placeholder=" Escriba aquí..."] {
     font-style: italic;
     font-weight: 300;
     font-size: 0.9em;
 }
-
-
 
 .formulario input[type="submit"], .formulario input[type="reset"] {
     width: 5em;
@@ -511,6 +542,7 @@ h4 {
     resize: none;
     vertical-align: top;
     border: 0.5px dotted #9D8189;
+    width: 250px;
 }
 
 .contacto {
@@ -641,7 +673,7 @@ footer {
     .botonera {
         display: flex;
         justify-content: flex-end;
-        font-size: 0.75em;
+        font-size: 0.8em;
     }
     .botonera li a {
         padding: 0 8px;
@@ -700,8 +732,47 @@ footer {
     }
     /* FIN EQUIPO */
     /* INICIO CV */
+    .equipos {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px 0;
+    }
     .cv, .cvacordeon, .cv2 {
-        width: 50%;
+        width: 150px;
+        border: 0.9px dotted #9D8189;
+    }
+    .cvacordeon {
+        margin: 0;
+    }
+    .cv, .cv2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .cv {
+        height: 400px;
+    }
+    .cv2 {
+        height: 453px;
+    }
+    .cvimg {
+        width: 100%;
+        height: 191px;
+    }
+    .cv img, .cv2 img {
+        width: 200px;
+    }
+    .vete {
+        width: 100%;
+        align-self: flex-start;
+    }
+    .sole .vete {
+        margin-bottom: 50px;
+    }
+    .nosole .vete {
+        margin-bottom: 145px;
+    }
+    .vete p, .cvacordeon span {
+        font-size: 0.9em;
     }
     /* FIN CV */
     /* INICIO SERVICIOS */
@@ -756,7 +827,7 @@ footer {
         max-width: 280px;
     }
     .botonera {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .botonera li a {
         padding: 0 10px;
@@ -772,6 +843,9 @@ footer {
         min-height: 300px;
         min-width: 350px;
         margin: 0 auto;
+    }
+    p {
+        font-size: 0.9em;
     }
     /* FIN BIENVENIDA */
     /* INICIO EQUIPO */
@@ -885,6 +959,18 @@ footer {
     /* INICIO EQUIPO */
     .titulo h2 {
         font-size: 1.6em;
+    }
+    .vete p {
+        font-size: 1em;
+    }
+    .cv, .cvacordeon, .cv2 {
+        width: 200px;
+    }
+    .sole .vete {
+        margin-bottom: -71px;
+    }
+    .nosole .vete {
+        margin-bottom: 35px;
     }
     /* FIN EQUIPO */
     /* INICIO SERVICIOS */
@@ -1056,7 +1142,6 @@ footer {
     }
     .botonera li a {
         padding: 0 18px;
-     
     }
     /* FIN HEADER Y NAV */
     /* INICIO BIENVENIDA */
@@ -1107,9 +1192,6 @@ footer {
     }
     /* FIN EQUIPO */
     /* INICIO CV */
-    .cv, .cvacordeon, .cv2 {
-        width: 50%;
-    }
     /* FIN CV */
     /* INICIO SERVICIOS */
     .posicionar {
