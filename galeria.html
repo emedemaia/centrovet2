@@ -50,7 +50,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="quienessomos.html#quienessomos">Staff</a></li>
             <li><a href="index.html#servicios">Servicios</a></li>
-            <li><a href="galeria.html#galeria">Galería</a></li>
+            <li><a href="#galeria" class="linku">Galería</a></li>
             <li><a href="https://www.docturno.com/medico/varela-maria-soledad" target="_blank">Turnos</a></li>
             <li><a href="novedades.html#novedades">Novedades</a></li>
             <li><a href="index.html#contacto">Contacto</a></li>
@@ -145,21 +145,11 @@
         <!-- FIN FOOTER -->
 
     </main>
-    <script>
-        var hamburguesa = document.getElementById('hamburger')
-        hamburguesa.addEventListener("click", function() {
-                  this.classList.toggle("is-active");
-                }, false);
-        
-                var botonera = document.getElementsByClassName('botonera')[0]
-                function botonabajo(){
-                    botonera.classList.toggle('navabierto')
-                }
-        
-            </script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/codigo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
