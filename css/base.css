@@ -62,6 +62,16 @@ nav {
     width: 100%;
 }
 
+.hambu{
+   text-align: center;
+}
+.navcerrado{
+    display: none;
+}
+
+.navabierto{
+    display: contents;
+}
 .botonera {
     /* class en ul del nav */
     list-style-type: none;
@@ -659,6 +669,13 @@ footer {
 
 @media screen and (min-width: 576px) {
     /* HEADER Y NAV */
+
+    .hambu{
+       display: none;
+     }
+     .navcerrado{
+         display: contents;
+     }
     header {
         background: no-repeat center/100% url(../images/labo2000x855.jpg);
     }
