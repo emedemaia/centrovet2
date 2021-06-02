@@ -1,4 +1,4 @@
-$(".page-nav ul a.linku, contenedor-top").on("click", function (e) {
+$(".page-nav ul a.linku, .contenedortop a").on("click", function (e) {
     // 1
     e.preventDefault();
     // 2
