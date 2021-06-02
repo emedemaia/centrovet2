@@ -334,7 +334,9 @@ p {
 }
 
 .servicios {
-    box-shadow: 0 0 10px 0 #83045e;
+    /* box-shadow: 0 0 10px 0 #83045e; */
+    border: 1px dotted #9D8189;
+    border-radius: 20px;
     margin: 20px auto;
     padding: 10px;
 }
