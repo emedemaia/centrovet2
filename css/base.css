@@ -65,13 +65,16 @@ nav {
 /* .hambu{
    text-align: center;
 } */
-.navcerrado{
-    display: none;
+
+.navcerrado {
+    height: 0;
 }
 
-.navabierto{
-    display: contents;
+.navabierto {
+    height: 360px;
+    /* display: contents; */
 }
+
 .botonera {
     /* class en ul del nav */
     list-style-type: none;
@@ -81,9 +84,11 @@ nav {
     text-align: center;
     font-weight: 300;
     font-size: 1.1em;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
 }
 
-.botonera .clientes {
+.clientes {
     background-color: #F5C1DD;
 }
 
@@ -96,6 +101,7 @@ a {
 
 .botonera li a {
     color: white;
+    /* border-top: 1px solid #9D8189; */
 }
 
 .botonera li a:hover {
@@ -669,13 +675,12 @@ footer {
 
 @media screen and (min-width: 576px) {
     /* HEADER Y NAV */
-
-    .hambu{
-       display: none;
-     }
-     .navcerrado{
-         display: contents;
-     }
+    .hambu {
+        display: none;
+    }
+    .navcerrado {
+        display: contents;
+    }
     header {
         background: no-repeat center/100% url(../images/labo2000x855.jpg);
     }
