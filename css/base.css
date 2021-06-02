@@ -514,6 +514,7 @@ h4 {
 
 .botonform {
     display: flex;
+  
 }
 
 .formulario p input {
@@ -533,6 +534,7 @@ h4 {
     padding: 15px;
     text-align: center;
     border: none;
+    transition: all 0.3s ease;
 }
 
 .formulario input[type="submit"] {
@@ -679,7 +681,7 @@ footer {
         display: none;
     }
     .navcerrado {
-        display: contents;
+        height: inherit;
     }
     header {
         background: no-repeat center/100% url(../images/labo2000x855.jpg);
